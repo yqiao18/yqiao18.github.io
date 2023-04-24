@@ -1,0 +1,128 @@
+/* Set default styles for the page */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header and navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-left: 1em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Style the welcome section */
+#welcome {
+    background-color: #eee;
+    padding: 2em;
+}
+
+/* Style the about section */
+#about {
+    background-color: #fff;
+    padding: 2em;
+}
+
+/* Style the portfolio section */
+#portfolio {
+    background-color: #eee;
+    padding: 2em;
+}
+
+#portfolio ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#portfolio li {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 1em;
+    padding: 1em;
+    width: calc(33.33% - 2em);
+}
+
+#portfolio h3 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+#portfolio p {
+    margin: 0;
+}
+
+/* Style the contact section */
+#contact {
+    background-color: #fff;
+    padding: 2em;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 0.5em;
+    width: 100%;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1em;
+    padding: 0.5em;
+}
+
+form input[type="submit"]:hover {
+    background-color: #666;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    font-size: 0.8em;
+    padding: 1em;
+    text-align: center;
+}
