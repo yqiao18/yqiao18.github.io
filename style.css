@@ -126,3 +126,32 @@ footer {
     padding: 1em;
     text-align: center;
 }
+
+/* Background image for header */
+header {
+    background-image: url('your-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Skill bars */
+.skill-container {
+    width: 100%;
+    background-color: #ddd;
+}
+
+.skill {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+/* Portfolio image hover effect */
+#portfolio img {
+    transition: transform .2s;
+}
+
+#portfolio img:hover {
+    transform: scale(1.2);
+}
