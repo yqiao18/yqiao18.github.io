@@ -30,12 +30,12 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    margin-left: -80px;  /* Negative value to move it to the left */
+    margin-left: -200px;  /* Negative value to move it to the left */
 }
 
 nav li {
     margin-left: 1em;
-    font-size: 1.2em;  /* If you still want the text to be bigger */
+    font-size: 2em;  /* If you still want the text to be bigger */
 }
 
 nav a {
