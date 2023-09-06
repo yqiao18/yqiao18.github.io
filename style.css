@@ -28,7 +28,7 @@ h1 {
 nav ul {
     display: flex;
     list-style: none;
-    margin: 0;
+    margin-right: 2em;
     padding: 0;
     margin-left: -200px;  /* Negative value to move it to the left */
 }
