@@ -155,3 +155,9 @@ header {
 #portfolio img:hover {
     transform: scale(1.2);
 }
+
+.profile-pic {
+    max-width: 200px;  /* Adjust as necessary */
+    border-radius: 50%;  /* Makes the image circular */
+    margin: 20px;  /* Optional spacing */
+}
