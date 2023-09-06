@@ -30,7 +30,7 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    margin-left: -20px;  /* Negative value to move it to the left */
+    margin-left: -80px;  /* Negative value to move it to the left */
 }
 
 nav li {
