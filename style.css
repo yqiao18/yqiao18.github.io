@@ -11,7 +11,7 @@ header {
     color: #fff;
     display: flex;
     justify-content: space-between;
-    padding: 2em;
+    padding: 0;
     position: fixed;
     top: 0;
     left: 0;
