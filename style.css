@@ -19,6 +19,9 @@ header {
     z-index: 1000;
 }
 
+main {
+    padding-top: 6em;  /* Adjust this value as necessary */
+}
 
 h1 {
     font-size: 2.5em;
