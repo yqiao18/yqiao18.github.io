@@ -21,6 +21,10 @@ header {
     background-position: center;
 }
 
+section {
+    margin-top: 60px; /* Adjust this value to match the height of your header */
+}
+
 h1 {
     font-size: 2em;
     margin-left: 10px;
