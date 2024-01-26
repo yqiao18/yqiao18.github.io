@@ -16,9 +16,13 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 500;
     background-size: cover;
     background-position: center;
+}
+
+header li {
+    font-size: 1.5em; 
 }
 
 section {
