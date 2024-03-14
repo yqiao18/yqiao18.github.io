@@ -1,61 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Yunhan Qiao - Personal Website</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Professional Portfolio</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333;
+    }
+    .container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+    }
+    header {
+        background: #f5f5f5;
+        padding: 20px 0;
+        text-align: center;
+    }
+    header img {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+    }
+    .social-icons a {
+        margin: 0 10px;
+        display: inline-block;
+    }
+    .social-icons img {
+        width: 24px;
+        height: 24px;
+    }
+    .about,
+    .interests,
+    .education {
+        margin-bottom: 20px;
+    }
+    .section-title {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+    .education-item,
+    .interests-item {
+        margin-bottom: 5px;
+    }
+</style>
 </head>
 <body>
-    <header id="header">
-        <h1>Yunhan Qiao(乔蕴涵)</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="resume.html">CV</a></li>
-                <li><a href="">Publication</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <img src="IMG_2900.JPG" alt="Yunhan Qiao" class="profile-pic">
-            <p>Currently, I am a Ph.D. student at Oregon State University working with <a href="https://mmotwani.com/">Dr. Manish Motwani</a>. My interest is in developing automated tools to improve software engineer's productivity</p>
-        </section>
-        
-        <section id="portfolio">
-            <h2>Research Project</h2>
-            <ul>
-                <li>
-                    <h3>Automatical heterogeneous bugs detection of HPC applications - HPCTest</h3>
-                    <p>
-                    High-Performance Computing (HPC) is essential for running critical applications such as stock market analysis, weather forecasting, drug discovery, and more. Heterogeneous bugs are a particular concern in these applications; they cause program outputs to vary across different computing backends. Such bugs in HPC applications can adversely affect human decision-making and may even lead to loss of life. 
-                    Therefore, detecting heterogeneous bugs is crucial. In our research project, we have developed an automated tool named HPCTest, designed to detect heterogeneous bugs specifically in a scientific application called LAMMPS. HPCTest starts by generating initial seed inputs for each LAMMPS example, utilizing a Large Language Model for this purpose. It then dynamically analyzes LAMMPS to extract subsystems 
-                    relevant to each example. To generate a diverse range of inputs, HPCTest employs AFL++ for fuzzing these initial seed inputs, which is guided by outputs of backends and kernel-sensitive variables. If outputs from different backends are different, there are potential bugs.
-                    </p>
-                </li>
-                <li>
-                    <h3>Certificate Authority Fuzzing Testing - CATest</h3>
-                    <p></p>
-                </li>
-            </ul>
-        </section>
-        
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <p><a href="https://scholar.google.com/citations?user=yct_kOcAAAAJ&hl=en" target="_blank">Google Scholar</a></p>
-            <p><a href="https://twitter.com/YOUR_TWITTER_HANDLE" target="_blank">Twitter</a></p>
-        </section>
 
-    </main>
+<header>
+    <img src="your-photo-url.jpg" alt="Profile Photo">
+    <h1>Your Name, PhD</h1>
+    <p>Research Computer Scientist</p>
+    <div class="social-icons">
+        <!-- Replace # with your actual social profile links -->
+        <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+        <a href="#"><img src="github-icon.png" alt="GitHub"></a>
+        <a href="#"><img src="medium-icon.png" alt="Medium"></a>
+        <!-- Add other social icons as needed -->
+    </div>
+</header>
+
+<div class="container">
+    <div class="about">
+        <h2 class="section-title">About Me</h2>
+        <p>
+            Description about yourself, your interests, and your work. 
+            Replace this text with your own content.
+        </p>
+    </div>
     
-    <footer>
-        <p>Copyright &copy; Yunhan Qiao
-    </footer>
-    
-    <script src="script.js"></script>
+    <div class="interests">
+        <h2 class="section-title">Interests</h2>
+        <ul>
+            <li class="interests-item">Next-gen RISC-V Chips for Space</li>
+            <li class="interests-item">Well-being and Mindfulness</li>
+            <!-- Add more interests as needed -->
+        </ul>
+    </div>
+
+    <div class="education">
+        <h2 class="section-title">Education</h2>
+        <div class="education-item">
+            <h3>PhD in Computer Science</h3>
+            <p>University Name, Years Attended</p>
+        </div>
+        <!-- Add more educational qualifications as needed -->
+    </div>
+</div>
+
 </body>
 </html>
