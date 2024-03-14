@@ -6,89 +6,70 @@
 <title>Professional Portfolio</title>
 <style>
     body {
-        font-family: Arial, sans-serif;
+        font-family: 'Arial', sans-serif;
         margin: 0;
         padding: 0;
         color: #333;
     }
-    .container {
-        max-width: 1200px;
-        margin: auto;
+    .navbar {
+        background-color: #333;
+        overflow: hidden;
+    }
+    .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+    }
+    .main {
+        display: flex;
+        margin-top: 20px;
+    }
+    .sidebar {
+        flex: 1;
+        padding: 20px;
+        background-color: #f2f2f2;
+    }
+    .profile-content {
+        flex: 3;
         padding: 20px;
     }
-    header {
-        background: #f5f5f5;
-        padding: 20px 0;
-        text-align: center;
-    }
-    header img {
-        border-radius: 50%;
-        width: 150px;
-        height: 150px;
-    }
-    .social-icons a {
-        margin: 0 10px;
-        display: inline-block;
-    }
-    .social-icons img {
-        width: 24px;
-        height: 24px;
-    }
-    .about,
-    .interests,
-    .education {
+    .section {
         margin-bottom: 20px;
-    }
-    .section-title {
-        font-size: 1.5em;
-        margin-bottom: 10px;
-    }
-    .education-item,
-    .interests-item {
-        margin-bottom: 5px;
     }
 </style>
 </head>
 <body>
 
-<header>
-    <img src="your-photo-url.jpg" alt="Profile Photo">
-    <h1>Your Name, PhD</h1>
-    <p>Research Computer Scientist</p>
-    <div class="social-icons">
-        <!-- Replace # with your actual social profile links -->
-        <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
-        <a href="#"><img src="github-icon.png" alt="GitHub"></a>
-        <a href="#"><img src="medium-icon.png" alt="Medium"></a>
-        <!-- Add other social icons as needed -->
-    </div>
-</header>
+<div class="navbar">
+    <!-- Add your navigation links here -->
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</div>
 
-<div class="container">
-    <div class="about">
-        <h2 class="section-title">About Me</h2>
-        <p>
-            Description about yourself, your interests, and your work. 
-            Replace this text with your own content.
-        </p>
+<div class="main">
+    <div class="sidebar">
+        <!-- Add your personal contact information here -->
+        <div class="section">
+            <h2>Contact Information</h2>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: your.email@example.com</p>
+            <p>LinkedIn: linkedin.com/in/yourprofile</p>
+            <!-- Add more contact details as needed -->
+        </div>
     </div>
     
-    <div class="interests">
-        <h2 class="section-title">Interests</h2>
-        <ul>
-            <li class="interests-item">Next-gen RISC-V Chips for Space</li>
-            <li class="interests-item">Well-being and Mindfulness</li>
-            <!-- Add more interests as needed -->
-        </ul>
-    </div>
-
-    <div class="education">
-        <h2 class="section-title">Education</h2>
-        <div class="education-item">
-            <h3>PhD in Computer Science</h3>
-            <p>University Name, Years Attended</p>
+    <div class="profile-content">
+        <!-- Add your professional description here -->
+        <div class="section">
+            <h1>Your Name, PhD</h1>
+            <p>Research Computer Scientist</p>
+            <p>Description about your professional experience, your interests, and your work. You can elaborate on your skills, projects, and any other relevant information that you would like to share with visitors to your site.</p>
         </div>
-        <!-- Add more educational qualifications as needed -->
     </div>
 </div>
 
