@@ -60,12 +60,18 @@
     .section {
         margin-bottom: 20px;
     }
-    .sidebar img {
-        width: 150px; /* Adjust as needed */
-        height: 150px; /* Adjust as needed */
-        border-radius: 50%; /* This makes the image round */
-        margin-bottom: 20px; /* Space below image */
-        object-fit: cover; /* Ensures the image covers the space without distortion */
+    .sidebar img.profile-pic {
+        width: 150px; /* Or any size you prefer */
+        height: 150px; /* Should be the same as width for a circle */
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+    .social-icons img {
+        width: 24px; /* Smaller width for icons */
+        height: 24px; /* Smaller height for icons */
+        margin: 0 10px;
+        vertical-align: middle;
     }
 </style>
 </head>
@@ -82,7 +88,7 @@
 <div class="main">
     <div class="sidebar">
         <!-- Add your image, name, and position here -->
-        <img src="IMG_2900.JPG" alt="Your Name">
+        <img src="IMG_2900.JPG" alt="Your Name" class="profile-pic">
         <h2>Yunhan Qiao</h2>
         <p>Ph.D. Student at Oregon State University</p>
         <!-- Add social media and personal links here -->
