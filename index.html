@@ -31,6 +31,27 @@
         flex: 1;
         padding: 20px;
         background-color: #f2f2f2;
+        text-align: center; /* Center sidebar content */
+    }
+    .sidebar img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%; /* Circular image */
+        margin-bottom: 20px; /* Space below image */
+    }
+    .sidebar h2 {
+        margin-top: 0;
+    }
+    .sidebar p {
+        font-style: italic;
+    }
+    .social-icons {
+        margin-top: 20px;
+    }
+    .social-icons img {
+        width: 24px;
+        height: 24px;
+        margin: 0 10px;
     }
     .profile-content {
         flex: 3;
@@ -53,21 +74,24 @@
 
 <div class="main">
     <div class="sidebar">
-        <!-- Add your personal contact information here -->
-        <div class="section">
-            <h2>Contact Information</h2>
-            <p>Phone: (123) 456-7890</p>
-            <p>Email: your.email@example.com</p>
-            <p>LinkedIn: linkedin.com/in/yourprofile</p>
-            <!-- Add more contact details as needed -->
+        <!-- Add your image, name, and position here -->
+        <img src="your-photo-url.jpg" alt="Your Name">
+        <h2>Your Name</h2>
+        <p>Your Position</p>
+        <!-- Add social media and personal links here -->
+        <div class="social-icons">
+            <!-- Replace # with your actual social profile links -->
+            <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+            <a href="#"><img src="github-icon.png" alt="GitHub"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <!-- Add other icons as needed -->
         </div>
     </div>
     
     <div class="profile-content">
         <!-- Add your professional description here -->
         <div class="section">
-            <h1>Your Name, PhD</h1>
-            <p>Research Computer Scientist</p>
+            <h1>About Me</h1>
             <p>Description about your professional experience, your interests, and your work. You can elaborate on your skills, projects, and any other relevant information that you would like to share with visitors to your site.</p>
         </div>
     </div>
